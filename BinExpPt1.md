@@ -12,7 +12,7 @@ Before using any advanced binary exploitation techniques, we should try the **st
 <img src="https://github.com/UDCTF/UDCTF.github.io/blob/master/UPX%20Packer.PNG"> 
 Towards the bottom of the output, we can see that the file is packed with the UPX packer. Using Google, we can look up the UPX Packer, and install the necessary unpacker. Although the rest of the challenge requires assembly language, we can see that the strings command is very useful in finding information about executables. 
 ## ltrace 
-
+**ltrace** is a command that displays dynamic system calls and their parameters while the program is running. These dynamic system calls may include string comparisons. For example, **ssh leviathan1@leviathan.labs.overthewire.org -p2223** with password rioGegei8m.  
 
 ## Symbolic Links 
 
