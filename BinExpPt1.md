@@ -3,7 +3,7 @@
 
 ## File 
   When first presented with a binary, it is usually helpful to run the **file** command before doing anything else with the executable.
-  [](LittleTommy.png)
+  ![LittleTommy](/LittleTommy.png)
 ## Strings 
 
 ## ltrace 
